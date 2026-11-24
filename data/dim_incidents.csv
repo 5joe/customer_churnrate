@@ -1,0 +1,15 @@
+incident_id,incident_date,region_affected,severity,duration_hours,root_cause
+INC-001,2022-05-12,All,P2,3,Database failover
+INC-002,2022-11-03,West Africa,P2,5,Network provider outage
+INC-003,2023-03-21,All,P3,2,Degraded search performance
+INC-004,2023-06-14,Europe,P3,3,CDN issue
+INC-005,2023-09-08,Southern Africa,P1,14,Regional data centre power loss
+INC-006,2024-02-19,Europe,P2,4,Deployment rollback
+INC-007,2024-05-07,All,P3,2,Third-party auth provider degradation
+INC-008,2024-10-22,All,P2,6,Storage latency
+INC-009,2025-02-11,North America,P3,2,API rate-limit misconfiguration
+INC-010,2025-08-04,East Africa,P1,118,Primary regional cluster failure and prolonged recovery
+INC-011,2025-09-16,East Africa,P3,3,Post-incident instability
+INC-012,2026-02-24,All,P3,2,Notification delays
+INC-013,2026-04-09,All,P2,7,Database migration issue
+INC-014,2026-08-18,Middle East,P2,5,Network routing fault

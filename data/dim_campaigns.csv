@@ -1,0 +1,14 @@
+campaign_id,campaign_name,channel,start_date,end_date,target_segment
+PS-01,Paid Search - Brand & Generic,Paid Search,2022-01-01,2026-10-31,All
+PS-02,Paid Search - Competitor Terms,Paid Search,2024-01-01,2026-10-31,SMB / Mid-Market
+SO-01,Paid Social - Always On,Paid Social,2022-03-01,2026-10-31,Individual / SMB
+SO-02,Paid Social - Summer Blitz 2024,Paid Social,2024-07-01,2024-09-30,Individual
+EV-01,Webinar Series,Events & Webinars,2022-02-01,2026-10-31,SMB / Mid-Market
+EV-02,Nairobi Customer Summit 2023,Events & Webinars,2023-10-01,2023-11-30,Mid-Market / Enterprise
+EV-03,Lagos Product Summit 2024,Events & Webinars,2024-10-01,2024-11-30,Mid-Market / Enterprise
+EV-04,Johannesburg Summit 2025,Events & Webinars,2025-10-01,2025-11-30,Mid-Market / Enterprise
+PT-01,Reseller Partner Programme,Partner,2022-06-01,2026-10-31,SMB / Mid-Market
+PT-02,Telco Bundle Partnership,Partner,2024-03-01,2026-10-31,SMB
+RF-01,Refer & Earn,Referral,2022-09-01,2026-10-31,All
+OB-01,Mid-Market Outbound,Outbound Sales,2022-03-01,2026-10-31,Mid-Market
+OB-02,Enterprise ABM,Outbound Sales,2024-01-01,2026-10-31,Enterprise
