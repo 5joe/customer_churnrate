@@ -17,7 +17,7 @@ engine = create_engine(f"postgresql+psycopg2://{user}:{password}@{host}:{port}/{
 dim_campaigns=pd.read_csv("../data/dim_campaigns.csv")
 dim_csm=pd.read_csv("../data/dim_csm.csv")
 dim_customers=pd.read_csv("../data/dim_customers.csv")
-#dim_date=pd.read_csv("../data/dim_date.csv")
+dim_date=pd.read_csv("../data/dim_date.csv")
 dim_incidents=pd.read_csv("../data/dim_incidents.csv")
 dim_plans=pd.read_csv("../data/dim_plans.csv")
 fact_account_month=pd.read_csv("../data/fact_account_month.csv")
@@ -41,6 +41,7 @@ try:
                 "Zuri".dim_campaigns,
                 "Zuri".dim_csm,
                 "Zuri".dim_customers,
+                "Zuri".dim_date,
                 "Zuri".dim_incidents,
                 "Zuri".dim_plans
             RESTART IDENTITY
@@ -76,15 +77,15 @@ try:
         method="multi",
     )
 
-    # dim_date.to_sql(
-    #     name="dim_date",
-    #     schema="Zuri",
-    #     con=engine,
-    #     if_exists="append",
-    #     index=False,
-    #     chunksize=1000,
-    #     method="multi",
-    # )
+    dim_date.to_sql(
+        name="dim_date",
+        schema="Zuri",
+        con=engine,
+        if_exists="append",
+        index=False,
+        chunksize=1000,
+        method="multi",
+    )
 
     dim_incidents.to_sql(
         name="dim_incidents",
